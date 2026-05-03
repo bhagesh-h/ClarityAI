@@ -42,9 +42,9 @@ Tailored extraction logic for specialized content:
 
 ## Setup and Installation
 
-### 1. Build the Extension
+### 1. Build/Get the Extension
 
-Since this is a modern React/Vite application, you must compile it before it can be loaded into Chrome:
+A. Since this is a modern React/Vite application, you must compile it before it can be loaded into Chrome:
 
 ```bash
 # Install dependencies
@@ -55,6 +55,8 @@ npm run build
 ```
 
 This will create a `dist` folder in your root directory.
+
+B. Or you can download the zip file containing `dist` from the [Latest Release](https://github.com/bhagesh-h/ClarityAI/releases/download/0.0.1/ClarityAI.zip).
 
 ### 2. Load into Your Browser
 
@@ -85,5 +87,3 @@ This will create a `dist` folder in your root directory.
 - **Local Storage**: All API keys and configurations are stored in your browser's local storage or extension storage. They are never sent to a central Clarity AI server.
 - **Direct Connect**: The extension communicates directly with your chosen AI provider's API endpoint.
 - **Data Exposure**: Only the text content of the *currently active tab* is sent to the AI provider for analysis when you trigger the extension.
-
-© 2026 Clarity AI Extension. Created by BHAGESH.
