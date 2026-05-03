@@ -40,6 +40,28 @@ Tailored extraction logic for specialized content:
 - **Gmail**: Optimized for mail threads, stripping signature blocks and conversation noise.
 - **Social Media**: Focused extraction for LinkedIn, Reddit, and GitHub.
 
+## Screenshots
+
+### Configuration
+
+![Configuration](./public/UI_ScreenShots/Configuration.png)
+
+### Main Page
+
+![Main Page](./public/UI_ScreenShots/MainPage.png)
+
+### Summary Tab
+
+![Summary Tab](./public/UI_ScreenShots/Summary.png)
+
+### Explaination Tab
+
+![About](./public/UI_ScreenShots/Explaination.png)
+
+### References Tab
+
+![References Tab](./public/UI_ScreenShots/References.png)
+
 ## Setup and Installation
 
 ### 1. Build/Get the Extension
