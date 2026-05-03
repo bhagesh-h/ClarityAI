@@ -2,7 +2,7 @@
 
 # Clarity AI - Content Synthesis Extension
 
-Clarity AI is a professional, high-performance browser extension designed to help you consume the web faster by synthesizing complex information. It provides instant summaries, deep explanations, and intelligent action items for any webpage, email, or video.
+ClarityAI is a browser extension that analyzes any web page with one click, delivering a summary, deep explanation, email replies based on entire thread and academic citations in APA, MLA, IEEE, or BibTeX, all inside a sleek collapsible sidebar. It supports multiple AI providers including Google Gemini, OpenAI, Claude, and local Ollama models, with secure API key storage and live connection verification built in.
 
 ## Features
 
