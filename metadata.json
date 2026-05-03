@@ -1,0 +1,15 @@
+{
+  "name": "Clarity AI - Content Synthesis Extension",
+  "description": "A production-grade Chrome extension for summarizing and explaining webpages, emails, PDFs, and YouTube videos.",
+  "requestFramePermissions": [
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "majorCapabilities": [
+    "AI Content Summarization",
+    "Multi-provider Support (Gemini, OpenAI, Anthropic)",
+    "Email Reply Generation",
+    "Academic Citation Formatting",
+    "YouTube Transcript Extraction"
+  ]
+}

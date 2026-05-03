@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html.clarity-extension-popup {
+  width: 360px;
+  height: 520px;
+  background: #0F0F0F;
+  overflow: hidden;
+}
+
+html.clarity-extension-popup body {
+  margin: 0;
+  padding: 0;
+  background: #0F0F0F;
+  width: 360px;
+  height: 520px;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* Ensure no scrollbars show in popup */
+html.clarity-extension-popup *::-webkit-scrollbar {
+  display: none !important;
+}
+
+html.clarity-extension-popup * {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+@layer base {
+  .custom-scrollbar::-webkit-scrollbar,
+  .content-area::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer utilities {
+  .prose-xs {
+    font-size: 0.8125rem;
+    line-height: 1.5;
+  }
+}
+
+.content-area .prose {
+  color: #e4e4e7; /* zinc-200 */
+}
+
+.content-area .prose h1,
+.content-area .prose h2,
+.content-area .prose h3,
+.content-area .prose h4,
+.content-area .prose strong {
+  color: #ffffff;
+}
+
+.content-area .prose p,
+.content-area .prose li {
+  color: #d4d4d8; /* zinc-300 */
+  margin-bottom: 0.5rem;
+}
+
+.content-area .prose ul,
+.content-area .prose ol {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.content-area .prose li > ul,
+.content-area .prose li > ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.glass-effect {
+  background: rgba(23, 23, 23, 0.8);
+  backdrop-filter: blur(12px);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab-active {
+  color: #3b82f6;
+  border-bottom: 2px solid #3b82f6;
+}
+
+.animate-in {
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-in-from-bottom {
+  from { transform: translateY(10px); }
+  to { transform: translateY(0); }
+}
